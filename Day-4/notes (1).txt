@@ -31,8 +31,7 @@ Tags:
                         <marquee></marquee> ->to scroll in different direction
 
 
-                
-
+              
 
     2. Unpaired tags/self closing tags 
     ->Any Tags having only opening tags 

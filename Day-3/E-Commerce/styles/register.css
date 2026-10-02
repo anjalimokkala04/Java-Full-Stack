@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #26383b;
+    background-color: #f6f7f3;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 5%;
+    background-color: #d9edf0;
+}
+
+header > img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+nav ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px 12px;
+    color: #26383b;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #b34f36;
+}
+
+.auth-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.auth-aside,
+.auth-panel {
+    padding: 30px;
+}
+
+.auth-aside {
+    background-color: #f4dfa6;
+}
+
+.auth-panel {
+    border: 1px solid #d8dedb;
+    background-color: white;
+}
+
+.auth-aside h1 {
+    font-size: 34px;
+}
+
+.product-category {
+    color: #657176;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.auth-intro,
+.auth-switch {
+    color: #657176;
+}
+
+.auth-form {
+    display: grid;
+    gap: 16px;
+}
+
+.auth-form label {
+    display: grid;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form input[type="text"] {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd4d1;
+    font: inherit;
+}
+
+.auth-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.auth-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.auth-options a,
+.auth-switch a {
+    color: #8b482c;
+}
+
+.button-link,
+.action-link {
+    display: inline-block;
+    padding: 11px 14px;
+    border: 0;
+    color: white;
+    background-color: #26383b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.auth-form .button-link {
+    width: 100%;
+}
+
+.form-status {
+    min-height: 20px;
+}
+
+footer {
+    padding: 18px;
+    background-color: #d9edf0;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ol {
+        justify-content: center;
+    }
+
+    .auth-layout {
+        grid-template-columns: 1fr;
+    }
+}

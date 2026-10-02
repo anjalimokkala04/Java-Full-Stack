@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Think Mart</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjg-j9JcRXCCF3SMANqkvJceVK5_KE3v4qcXTlvsjZTg&s=10" alt="Think Mart logo">
+        <nav aria-label="Main navigation"><ol>
+            <li><a href="landing-page.html">Home</a></li><li><a href="Products.html">Products</a></li><li><a href="About.html">About</a></li><li><a href="Contact.html">Contact</a></li><li><a href="Cart.html">Cart</a></li><li><a href="index.html" aria-current="page">Login</a></li><li><a href="Register-Page.html">Register</a></li>
+        </ol></nav>
+    </header>
+    <main class="auth-layout">
+        <section class="auth-aside"><p class="product-category">WELCOME BACK</p><h1>Good to see you again.</h1><p>Your next great find is just around the corner.</p><a class="action-link" href="Products.html">Explore products</a></section>
+        <section class="auth-panel">
+            <h2>Sign in</h2><p class="auth-intro">Enter your details to access your account.</p>
+            <form class="auth-form" action="#" method="post" data-auth-form="login">
+                <label for="login-email">Email address<input id="login-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+                <label for="login-password">Password<input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required></label>
+                <div class="auth-options"><label><input type="checkbox" name="remember"> Remember me</label><a href="Contact.html">Forgot password?</a></div>
+                <button class="button-link" type="submit">Login</button>
+            </form>
+            <p class="form-status" id="auth-message" role="status" aria-live="polite"></p>
+            <p class="auth-switch">New to Think Mart? <a href="Register-Page.html">Create an account</a></p>
+        </section>
+    </main>
+    <footer><p>Think Mart | Thoughtful picks for everyday life</p></footer>
+</body>
+</html>

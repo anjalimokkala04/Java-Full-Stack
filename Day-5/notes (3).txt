@@ -1,0 +1,39 @@
+-----------------
+Datatypes:
+	->Datatype represent what type of data storing on that variables
+
+Types:
+	1.primtive Datatypes:
+		i.number
+		ii.string
+		iii.boolean
+		iv.undefine
+		v.bigint
+		vi.symbol
+		vii.null
+
+	2.non-primitive Datatypes
+		i.Arrays:
+		    ->Arrays are teh linear data structure used to store homogeneous and heterogeneous data
+		    ->In js we can declare arrays in two ways:
+			i.literal way
+			ii.new key word
+		ii.object
+		    ->object the real time entitie used to store data in form of key and value pair
+		    ->In js we can declare object in two ways:
+			i.literal way
+			ii.new key word
+
+		iii.functions
+		iv.class types
+loops:
+	->for
+	->while
+	->do-while
+	->for-each
+	->for-in loop
+	->for each loop
+only for arrays:
+	->map
+	->filter
+	->reduce

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Think Mart</title>
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjg-j9JcRXCCF3SMANqkvJceVK5_KE3v4qcXTlvsjZTg&s=10" alt="Think Mart logo">
+        <nav aria-label="Main navigation"><ol>
+            <li><a href="landing-page.html">Home</a></li><li><a href="Products.html">Products</a></li><li><a href="About.html">About</a></li><li><a href="Contact.html">Contact</a></li><li><a href="Cart.html">Cart</a></li><li><a href="index.html">Login</a></li><li><a href="Register-Page.html" aria-current="page">Register</a></li>
+        </ol></nav>
+    </header>
+    <main class="auth-layout">
+        <section class="auth-aside"><p class="product-category">JOIN THE COMMUNITY</p><h1>Good finds, made personal.</h1><p>Create an account to make your next visit feel right at home.</p><a class="action-link" href="Products.html">Browse the collection</a></section>
+        <section class="auth-panel">
+            <h2>Create your account</h2><p class="auth-intro">A few details and you're all set.</p>
+            <form class="auth-form" action="#" method="post" data-auth-form="register">
+                <label for="register-name">Full name<input id="register-name" name="name" type="text" autocomplete="name" placeholder="Your name" required></label>
+                <label for="register-email">Email address<input id="register-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+                <label for="register-password">Password<input id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required></label>
+                <label for="register-confirm">Confirm password<input id="register-confirm" name="confirm-password" type="password" autocomplete="new-password" minlength="8" placeholder="Enter your password again" required></label>
+                <button class="button-link" type="submit">Create Account</button>
+            </form>
+            <p class="form-status" id="auth-message" role="status" aria-live="polite"></p>
+            <p class="auth-switch">Already have an account? <a href="index.html">Login</a></p>
+        </section>
+    </main>
+    <footer><p>Think Mart | Thoughtful picks for everyday life</p></footer>
+</body>
+</html>

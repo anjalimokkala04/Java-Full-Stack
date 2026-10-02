@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>job application form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>IBM job application</legend>
+        <label for="" >FirstName:</label>
+        <input type="text" placeholder="Enter FirstName">
+        <br><br>
+        <label for="">LastName:</label>
+        <input type="text" placeholder="Enter LastName">
+        <br><br>
+        <label for="">Email:</label>
+        <input type="email" placeholder="Enter email">
+        <br><br>
+        <label for="">Phone:</label>
+        <input type="tel" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter FirstName">
+        <br><br>
+        <label for="">Gender:</label>
+        <input type="radio" value="Male" name="'Gender">Male
+        <input type="radio" value="Female" name="'Gender">Female
+        <input type="radio" value="Other" name="'Gender">Other
+        <br><br>
+        <label for="">State:</label>
+        <select name="" id="State">
+            <option value="">Choose State</option>
+            <option value="Andhra pradesh">AP</option>
+            <option value="Tamil Nadu">TN</option>
+            <option value="Telangana">TG</option>
+            <option value="Kerala">KL</option>
+        </select>
+        <br><br>
+        <label for="">Address: </label>
+            <textarea rows="4" cols="30" placeholder="Enter Full Address as per Aadher" name="" id=""></textarea>
+        <br><br>
+        <label for="">Skills:</label>
+        <input type="checkbox">Java
+        <input type="checkbox">Spring boot
+        <input type="checkbox">python
+        <input type="checkbox">html
+        <input type="checkbox">css
+        <br><br>
+        <label for="">Languages: </label>
+            <input type="range" value="80"> English
+            <input type="range" value="80"> Hindi
+            <br><br> 
+        <label for="">Resume:</label>
+        <input type="file" accept=".pdf">
+        <br><br>
+        <button type="submit">Apply</button>
+        <button type="reset">Reset</button>
+
+    </fieldset>
+</body>
+</html>
+

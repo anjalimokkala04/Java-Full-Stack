@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #26383b;
+    background-color: #f6f7f3;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 5%;
+    background-color: #d9edf0;
+}
+
+header > img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+nav ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px 12px;
+    color: #26383b;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #b34f36;
+}
+
+.page-banner {
+    padding: 36px 20px;
+    background-color: #f4dfa6;
+    text-align: center;
+}
+
+.page-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 36px 20px;
+}
+
+.story-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.story-layout img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.story-layout p {
+    line-height: 1.7;
+}
+
+.product-category {
+    color: #657176;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.mission-panel {
+    margin-top: 32px;
+    padding: 24px;
+    border-left: 5px solid #ed8a52;
+    background-color: white;
+}
+
+.team-section {
+    margin-top: 40px;
+}
+
+.team-grid,
+.trust-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 18px;
+}
+
+.team-card,
+.trust-badge {
+    padding: 16px;
+    border: 1px solid #d8dedb;
+    background-color: white;
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.team-card h3 {
+    margin-bottom: 6px;
+}
+
+.trust-badge strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+footer {
+    padding: 18px;
+    background-color: #d9edf0;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ol {
+        justify-content: center;
+    }
+
+    .story-layout {
+        grid-template-columns: 1fr;
+    }
+}

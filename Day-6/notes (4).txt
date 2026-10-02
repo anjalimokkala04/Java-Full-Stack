@@ -32,5 +32,4 @@ In Js functions are classified into ten types:
     8. higher order function
     9. Callback function
     10. Generator function
-
     *to achieve functional expression anonymous functions are used

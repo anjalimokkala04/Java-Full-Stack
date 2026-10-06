@@ -1,0 +1,15 @@
+.ball{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(218, 13, 197);
+    border-radius: 50%;
+    animation: ball 2s linear 2s infinite alternate-reverse;
+}
+@keyframes ball{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}

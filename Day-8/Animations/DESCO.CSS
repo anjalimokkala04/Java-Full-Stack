@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: rgb(228, 20, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: desco 2s linear 2s infinite alternate;
+}
+h2{
+    background-color: black;
+
+}
+@keyframes desco{
+    0%{
+        background-color: aqua;
+    }
+    15%{
+        background-color: antiquewhite;
+    }
+    30%{
+        background-color: burlywood;
+    }
+    45%{
+        background-color: brown;
+    }
+    60%{
+        background-color: cadetblue;
+    }
+    75%{
+        background-color: chartreuse;
+    }
+    100%{
+        background-color:salmon;
+    }
+
+}

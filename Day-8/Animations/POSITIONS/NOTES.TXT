@@ -1,0 +1,7 @@
+POSITIONS:
+
+->static: default position(The top,right,left,bottom and z-index properties have no effect)
+->relative: element is relative to itself.(The top,right,left,bottom and z-index will work)
+->absolute:positioned relative to its closest positioned ancester
+->fixed: positioned relative to browser
+->sticky: positioned based on users scroll position

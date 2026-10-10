@@ -1,0 +1,53 @@
+Arrow Function:
+->Arrow function is used to reduce the syntax of the function
+->Arrow function are introduced in the vefsion ES6
+->Arrow function follows three rules
+  (i) If arrow function contains more than one statement keep in braces {}
+  (ii)If arrow function contains return keyword then also keep it in braces {}
+  (iii) In arrow functions this keyword works differently(if we are accessing this keyword in arrow function it will be target windows object)
+
+
+
+Nested Function:
+->Function inside another function
+GEC(Global Execution Context) like a jvm in java
+It has two faces - variable face and functional face
+
+Lexical Scope-This is the ability of search a variable in the search engine then it is a block scope is called Lexical scope
+
+
+Higher Order Function:
+->Any function accept another function as parameter
+
+Call Back Function:
+->Any functions that will be passed as a parameter to the higher order functions that functions are called as call back functions 
+
+Generator Function:
+->Used when we don't know how many times the function should be called
+
+
+JSON Function(JavaScript Object Notation):
+->JSON is similar to JavaScript Object
+->JSON in built functions
+   (i)JSON.Stringify(which json object you want to convert into string is passed here)
+   (ii)JSON.parse(which string you want to convert into object)
+
+
+BOM(Browser Object Model):
+->Each and every closures contains browser object Model
+->Browser object model contains in built windows object
+->Inbuilt windows functions:
+   innerHeight()
+   innerWidth()
+   outerHeight()
+   outerWidth()
+   windows.open()
+   windows.close()
+   windows.resize()
+   alert()
+   confirm()
+   prompt()
+   sessionStorage()
+   localStorage()
+   cookies()
+   DOM()

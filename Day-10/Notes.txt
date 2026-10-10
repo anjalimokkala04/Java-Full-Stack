@@ -1,0 +1,38 @@
+DOM(Document Object Model):
+->DOM is the predefined in built object present in windows object
+->Using DOM we can manipulate both HTML and CSS (DOM Manipulation)
+->Using DOM we can add functionality to the webpage
+->DOM Methods:
+   createElement()
+   innerText - keyword
+   innerHTML - variable
+   innerContent - variable
+   appendChild()
+   removeChild()
+   createAttribute()
+->DOM Selectors are used to target the HTML elements
+   getElementById()   
+   getElementsByClassName()
+   getElementsByName()
+   getElementsByTagName()
+   querySelector()
+   querySelectorAll()
+
+
+
+Promises:
+->Used to handle inconsistent data
+->3 States of promises
+    (i)pending
+    (ii)fullfilled
+    (iii)reject
+->To handle the promises in JavaScript
+    1.using async and await
+    2.then and catch 
+    
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <label for="username">Username: </label>
+            <input type="text" placeholder="Enter your username" id="username"><br><br>
+
+            <label for="password">Password: </label>
+            <input type="password" placeholder="Enter your password" id="password"><br><br>
+            <button type="button" id="btn">Generate OTP</button>
+            <span>
+
+            </span>
+            <br><br>
+            <button type="submit">Login</button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+    <script>
+        let bodyContainer=document.querySelector("body");
+        let btn=document.getElementById("btn");
+        btn.addEventListener("click",()=>{
+            let spanContainer=document.querySelector("span");
+            let otp=Math.round(Math.random()*1000000);
+            spanContainer.innerText=otp;
+            bodyContainer.style.backgroundColor=`#${otp}`
+        })
+
+        let userN=document.getElementById("username");
+        let psw=document.getElementById("password");
+        let formContainer=document.querySelector("form");
+
+        formContainer.addEventListener('submit',(e)=>{
+            e.preventDefault();
+            console.log("Username",userN.value);
+            console.log("Password",psw.value);
+        });
+
+        let buttons=document.getElementsByTagName("button");
+        console.log(buttons[0]);
+        console.log(buttons[1]);
+        console.log(buttons[2]);
+    </script>
+</body>
+</html>
